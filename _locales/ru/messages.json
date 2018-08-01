@@ -1,0 +1,80 @@
+{
+   "title": {
+      "message": "2048 играть"
+   },
+   "desc": {
+      "message": "Расширение позволяет играть в популярную игру 2048 на любой странице браузера, в окошке"
+   },
+   "name": {
+      "message": "2048 игра в окошке"
+   },
+   "shortname": {
+      "message": "2048 игра"
+   },
+   "backtogame": {
+      "message": "Назад в игру"
+   },
+   "best": {
+      "message": "Рекорд"
+   },
+   "best_score": {
+      "message": "Ваш Результат"
+   },
+   "cancel": {
+      "message": "Отмена"
+   },
+   "congratulations": {
+      "message": "Поздравляем!"
+   },
+   "empty": {
+      "message": "Пусто."
+   },
+   "enter_name": {
+      "message": "Введите имя"
+   },
+   "game_over": {
+      "message": "Игра закончена!"
+   },
+   "input_placeholder": {
+      "message": "Например: Владимир"
+   },
+   "keep_going": {
+      "message": "Продолжить"
+   },
+   "lb_suggestion": {
+      "message": "Хотите попасть в таблицу рекордов?"
+   },
+   "leaderboard": {
+      "message": "Лучшие результаты"
+   },
+   "loading": {
+      "message": "Загрузка..."
+   },
+   "new_game": {
+      "message": "Новая Игра"
+   },
+   "no": {
+      "message": "Нет"
+   },
+   "save": {
+      "message": "Сохранить"
+   },
+   "score": {
+      "message": "Очки"
+   },
+   "try_again": {
+      "message": "Заново"
+   },
+   "tutorial_1": {
+      "message": "Используйте стрелки"
+   },
+   "tutorial_2": {
+      "message": "для игры"
+   },
+   "victory": {
+      "message": "Победа!"
+   },
+   "yes": {
+      "message": "Да"
+   }
+}

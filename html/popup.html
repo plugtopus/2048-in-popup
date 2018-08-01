@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="../css/popup.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+	   <script src="../core/functions.js"></script>
+	   <script src="../core/leaderboard.js"></script>
+	   <script src="../core/popup.js"></script>
+		<div>
+			<div class="container">
+				<div class="above-game">
+					<h1 class="title">2048</h1>
+					<div class="scores-container">
+						<div class="score-container" style="margin-right: 5px" l_attr="text" l_content="score">0</div>
+						<div class="best-container" l_attr="text" l_content="best">0</div>
+					</div>
+				</div>
+				<div class="game-intro">
+					<a class="restart-button" l_content="new_game">New Game</a>
+					<h2 class="subtitle" style="font-size: medium">Play 2048 Game anywhere</h2>
+				</div>
+				<div class="game-container">
+					<div class="game-message">
+						<p></p>
+						<div class="lower"><a class="keep-playing-button" l_content="keep_going">Keep going</a><a class="retry-button" l_content="try_again">Try again</a></div>
+					</div>
+					<div class="grid-container">
+						<div class="grid-row">
+							<div class="grid-cell"></div>
+							<div class="grid-cell"></div>
+							<div class="grid-cell"></div>
+							<div class="grid-cell"></div>
+						</div>
+						<div class="grid-row">
+							<div class="grid-cell"></div>
+							<div class="grid-cell"></div>
+							<div class="grid-cell"></div>
+							<div class="grid-cell"></div>
+						</div>
+						<div class="grid-row">
+							<div class="grid-cell"></div>
+							<div class="grid-cell"></div>
+							<div class="grid-cell"></div>
+							<div class="grid-cell"></div>
+						</div>
+						<div class="grid-row">
+							<div class="grid-cell"></div>
+							<div class="grid-cell"></div>
+							<div class="grid-cell"></div>
+							<div class="grid-cell"></div>
+						</div>
+					</div>
+					<div class="tile-container"></div>
+				</div>
+				<div class="leaderboard-btn-container">
+					<a class="leaderboard-btn" l_content="leaderboard,backtogame" l_attr="leaderboard-text,backtogame-text"><img class="back-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAKCAYAAABv7tTEAAAAAXNSR0IArs4c6QAAAPtJREFUKBVjZEAD/ZVpmUyM/99LskmvC2to+IUmDeYyIQtOqEyvYfz/f+r/fwyV7xmesSDLIbMZYZyJlalF//4zdDIyMvxgYGYxKWiZfhMmh06DbZpQkZ717z9jJ8N/xt8sLGwWuDTMnJnGCjKAcWJlWvz////n/mdgYIaa+BXdZCQ+NxMzUwDLf0bG/wz/gVog4CcDA5wNE0OiGRn+/2XQAPsJFGJAtZOA+DcrG6tpTvPUq0gq4cxVq1Yxh4WF/cUICAZgQLAysBnntE+9BVeNxoBrAolPqMjI+c/wdzIwBO9ysjPqpTfM+oamHjt3QmVG6qq+Qk7sshBRAD+mUeUzNXjEAAAAAElFTkSuQmCC"></a>
+				</div>
+				<div class="leaderboard-container">
+					<div id="table-head" l_content="leaderboard">Leaderboard</div>
+					<div id="table-wrap">
+						<div id="table" l_attr="loading-text,empty-text" l_content="loading,empty" loading-text="Loading..." empty-text="Empty.">
+						</div>
+					</div>
+					<div id="form">
+						<div class="title" l_content="enter_name">
+							Enter your name
+						</div>
+						<input class="input" type="text" l_attr="placeholder" l_content="input_placeholder" placeholder="Example: Mike">
+						<div class="buttons">
+							<span class="btn save" l_content="save">Save</span>
+							<span class="btn cancel" l_content="cancel">Cancel</span>
+						</div>
+					</div>
+					<div id="bestscore">
+						<div class="big-text"><span id="congrat" l_content="congratulations">Congratulations!</span><br><span l_content="best_score">Best Score</span>: <span id="score">0</span></div>
+						<div class="small-text" l_content="lb_suggestion">Want to get to the <br> highscore table?</div>
+						<div class="buttons">
+							<span class="btn save" l_content="yes">Yes</span>
+							<span class="btn cancel" l_content="no">No</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="start-lesson" class="start-lesson" style="display:none">
+			<div l_content="tutorial_1" class="big-text">Use your keyboard</div>
+			<div l_content="tutorial_2" class="small-text">to play</div>
+		</div>
+	</body>
+</html>
